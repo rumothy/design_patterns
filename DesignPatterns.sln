@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Facade", "build\Facade.exe", "{13DD55E0-B98C-4DC3-84AE-C9D8BE1EAE65}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\dev\2020-08\design_patterns\build\Facade.exe
+		RemoteMachine = DESKTOP-QLP4L57
+		StartingDirectory = C:\dev\2020-08\design_patterns\build
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{C869E6EE-2547-4621-A89B-ACDB33E4352B}"
+	ProjectSection(SolutionItems) = preProject
+		StructuralPatterns\build.bat = StructuralPatterns\build.bat
+		StructuralPatterns\Facade.cpp = StructuralPatterns\Facade.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{8E087DBD-0214-408F-B1B4-26ABCE87DF10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{6058DAD3-3DC5-4F47-AA4D-F966AE1C5354}"
+	ProjectSection(SolutionItems) = preProject
+		BehavioralPatterns\build.bat = BehavioralPatterns\build.bat
+		BehavioralPatterns\Strategy.cpp = BehavioralPatterns\Strategy.cpp
+	EndProjectSection
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Strategy", "build\Strategy.exe", "{2B02FEE4-0EFC-4545-9E5E-D08460CD0362}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\dev\2020-08\design_patterns\build\Strategy.exe
+		RemoteMachine = DESKTOP-QLP4L57
+		StartingDirectory = C:\dev\2020-08\design_patterns\build
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13DD55E0-B98C-4DC3-84AE-C9D8BE1EAE65}.Release|x64.ActiveCfg = Release|x64
+		{2B02FEE4-0EFC-4545-9E5E-D08460CD0362}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13DD55E0-B98C-4DC3-84AE-C9D8BE1EAE65} = {8E087DBD-0214-408F-B1B4-26ABCE87DF10}
+		{2B02FEE4-0EFC-4545-9E5E-D08460CD0362} = {8E087DBD-0214-408F-B1B4-26ABCE87DF10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146A0CB8-E4EB-4E6A-9450-DF5B1B2F7CCD}
+	EndGlobalSection
+EndGlobal

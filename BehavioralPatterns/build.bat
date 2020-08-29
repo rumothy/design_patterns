@@ -2,5 +2,5 @@
 
 mkdir ..\build
 pushd ..\build
-cl -FC -Zi /EHsc ..\BehavioralPatterns\Strategy.cpp user32.lib
+cl -FC -Zi /EHsc ..\BehavioralPatterns\%1 user32.lib
 popd

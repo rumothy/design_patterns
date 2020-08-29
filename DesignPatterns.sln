@@ -27,13 +27,32 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{6058DAD3-3DC5-4F47-AA4D-F966AE1C5354}"
 	ProjectSection(SolutionItems) = preProject
 		BehavioralPatterns\build.bat = BehavioralPatterns\build.bat
-		BehavioralPatterns\Strategy.cpp = BehavioralPatterns\Strategy.cpp
+		BehavioralPatterns\State.cpp = BehavioralPatterns\State.cpp
+		BehavioralPatterns\strategy.cpp = BehavioralPatterns\strategy.cpp
 	EndProjectSection
 EndProject
 Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Strategy", "build\Strategy.exe", "{2B02FEE4-0EFC-4545-9E5E-D08460CD0362}"
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
 		Executable = C:\dev\2020-08\design_patterns\build\Strategy.exe
+		RemoteMachine = DESKTOP-QLP4L57
+		StartingDirectory = C:\dev\2020-08\design_patterns\build
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0AB206C9-C8A4-45A1-A386-1261E500D417}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "state", "build\state.exe", "{0BA9C6DC-FF70-4E3E-8D8F-5B52A96B1C5F}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\dev\2020-08\design_patterns\build\state.exe
 		RemoteMachine = DESKTOP-QLP4L57
 		StartingDirectory = C:\dev\2020-08\design_patterns\build
 		Environment = Default
@@ -50,6 +69,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{13DD55E0-B98C-4DC3-84AE-C9D8BE1EAE65}.Release|x64.ActiveCfg = Release|x64
 		{2B02FEE4-0EFC-4545-9E5E-D08460CD0362}.Release|x64.ActiveCfg = Release|x64
+		{0BA9C6DC-FF70-4E3E-8D8F-5B52A96B1C5F}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +77,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{13DD55E0-B98C-4DC3-84AE-C9D8BE1EAE65} = {8E087DBD-0214-408F-B1B4-26ABCE87DF10}
 		{2B02FEE4-0EFC-4545-9E5E-D08460CD0362} = {8E087DBD-0214-408F-B1B4-26ABCE87DF10}
+		{0BA9C6DC-FF70-4E3E-8D8F-5B52A96B1C5F} = {8E087DBD-0214-408F-B1B4-26ABCE87DF10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {146A0CB8-E4EB-4E6A-9450-DF5B1B2F7CCD}
